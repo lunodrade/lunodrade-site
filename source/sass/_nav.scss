@@ -1,0 +1,35 @@
+$menu-item-color: #EE3333;
+$menu-item-color-hover: darken($menu-item-color, 50%);
+
+#nav {
+    a {
+        color: $menu-item-color;
+        text-decoration: none;
+        
+        &:hover {
+            color: $menu-item-color-hover;
+        }
+    }
+}
+
+.div-lorem {
+    background-color: rgba(200, 200, 200, .8);
+    padding: 10px;
+    border: {
+        radius: 10px;
+        style: dashed;
+    }
+    
+    p {
+        color: #FF0000;
+        
+        font: {
+            weight: bold;
+            size: 18px;
+        }
+    }
+}
+
+.vermelho {
+    color: red;
+}

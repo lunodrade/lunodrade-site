@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*!
+
+Comentário permanente de CSS
+presente no inicio do arquivo main.scss
+
+*/
+/* line 5, ../../source/sass/_nav.scss */
+#nav a {
+  color: #EE3333;
+  text-decoration: none;
+}
+/* line 9, ../../source/sass/_nav.scss */
+#nav a:hover {
+  color: #1f0303;
+}
+
+/* line 15, ../../source/sass/_nav.scss */
+.div-lorem {
+  background-color: rgba(200, 200, 200, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  border-style: dashed;
+}
+/* line 23, ../../source/sass/_nav.scss */
+.div-lorem p {
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* line 33, ../../source/sass/_nav.scss */
+.vermelho {
+  color: red;
+}
+
+/* line 2, ../../source/sass/_footer.scss */
+#footer hr {
+  margin: 50px;
+  color: blue;
+}
+/* line 7, ../../source/sass/_footer.scss */
+#footer p {
+  color: gray;
+  font-size: 9px;
+}
+
+/*# sourceMappingURL=main.css.map */
